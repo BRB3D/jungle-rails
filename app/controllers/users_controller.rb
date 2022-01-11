@@ -12,6 +12,7 @@ class UsersController < ApplicationController
     end
   end
 
+
   private
 
   def user_params
@@ -19,7 +20,7 @@ class UsersController < ApplicationController
       :first_name, 
       :last_name, 
       :email, 
-      :password, 
+      :password, presence: true,
       :password_confirmation
     )
   end

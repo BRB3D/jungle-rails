@@ -27,9 +27,8 @@ RSpec.describe Product, type: :model do
 
     context "should save and include a price" do 
       it "should save with price" do 
-        productPrice = Product.new(name: "test", price: nil, quantity: 4, category: @category)
-        productPrice.save
-        expect(productPrice.price).to eq(0)
+        productPrice = Product.new(name: "test", quantity: 4, category: @category)
+        expect(productPrice.save).to be false
         pp productPrice.errors.full_messages
       end
     end
@@ -44,9 +43,9 @@ RSpec.describe Product, type: :model do
 
     context "should fail and show errors" do 
       it "should not be " do 
-        product2 = Product.new(name: nil, price: 2200, quantity: 2, category: @category)
-        expect(product2.save).to be false
-        pp product2.errors.full_messages
+        productQuantity = Product.new(name: "test", price: 2200, category: @category)
+        expect(productQuantity.save).to be false
+        pp productQuantity.errors.full_messages
       end
     end
 
