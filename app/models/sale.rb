@@ -13,6 +13,6 @@ class Sale < ActiveRecord::Base
   end
 
   def active?
-    !ucpming? && !finished?
+    !upcoming? && !finished?
   end
 end
