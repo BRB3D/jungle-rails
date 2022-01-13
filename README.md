@@ -32,6 +32,27 @@ Testing:
 - Home page loads products
 - Clicking on add to cart updates the cart in the NavBar
 
+
+
+![About Page](https://github.com/BRB3D/jungle-rails/blob/master/public/images/About.png?raw=true)
+
+![Details](https://github.com/BRB3D/jungle-rails/blob/master/public/images/Details.png?raw=true
+)
+
+![Empty Cart](https://github.com/BRB3D/jungle-rails/blob/master/public/images/Empty%20Cart.png?raw=true)
+
+
+![Sale](https://github.com/BRB3D/jungle-rails/blob/master/public/images/Sale.png?raw=true
+)
+![Sold Out](https://github.com/BRB3D/jungle-rails/blob/master/public/images/Sold%20Out.png?raw=true
+)
+![New Category Admin](https://github.com/BRB3D/jungle-rails/blob/master/public/Gifs/New%20category.gif?raw=true)
+![Login User](https://github.com/BRB3D/jungle-rails/blob/master/public/Gifs/login.gif?raw=true)
+![Signup User](https://github.com/BRB3D/jungle-rails/blob/master/public/Gifs/signup.gif?raw=true)
+
+
+
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
